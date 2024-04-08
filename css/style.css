@@ -16,3 +16,32 @@ body {
     width: 700px;
     height: 650px;
   }
+
+  .accordion {
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+}
+
+/* Style for each accordion item */
+.accordion-item {
+    border-bottom: 1px solid #ccc;
+}
+
+/* Style for accordion header (toggle button) */
+.accordion-header {
+    background-color: #f5f5f5;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Style for accordion content (collapsed by default) */
+.accordion-content {
+    padding: 10px;
+    display: none;
+}
+
+/* Style for active accordion content (visible when expanded) */
+.accordion-item.active .accordion-content {
+    display: block;
+}
